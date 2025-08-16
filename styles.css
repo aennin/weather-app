@@ -1,0 +1,46 @@
+body {
+    background: url("./pexels-jplenio-1118873.jpg");
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+#header {
+    color: whitesmoke;
+}
+
+p {
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+form {
+    color: white;
+}
+
+#location {
+    width: 200px;
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: none;
+}
+
+#submit {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3c69d2;
+    color: white;
+    cursor: pointer;
+}
+
+#weather-outcome {
+    margin-top: 20px;
+    color: white;
+}
